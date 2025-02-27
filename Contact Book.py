@@ -4,10 +4,8 @@ print(contacts)
 name=str(input("Enter the name: "))
 number = contacts.get(name)
     
-if name in contacts:
-       
+if name in contacts:    
     print("The phone number of: " + name + " is " + number)
-       
-    
+  
 else:
         print("Invalid name")
